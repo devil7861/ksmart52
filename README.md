@@ -1,87 +1,175 @@
-# 🍝 김승수의 파스타 교실에 오신 걸 환영합니다!
-
-안녕하세요! **김승수**입니다.  
-여기는 개발이라는 **재료**로 근사한 **파스타**를 만들어가는 교실이에요.  
-알 덴테처럼 완벽한 코드, 크림처럼 부드러운 로직을 함께 만들어봅시다!
+# **Online Mock Exam Platform**  
+온라인 모의고사 플랫폼  
 
 ---
 
-## 🥄 이 프로젝트는 뭐냐면요
-
-> "파스타를 잘 만들려면, 좋은 재료와 세심한 손길이 필요합니다. 코드도 마찬가지예요!"
-
-이 프로젝트는 **momo**를 위한 것입니다.  
-**문제를 해결**하기 위해 **최신 기술 스택**을 사용해 요리를 만들어낼 거예요.  
-결과는? 완벽하게 맛있는 **코드 요리**가 되겠죠! 🍴
-
----
-
-## 🍳 필요한 재료 (기술 스택)
-
-- **프레임워크/언어**: Python, React, Node.js  
-- **데이터베이스**: MongoDB, PostgreSQL  
-- **기타 도구들**: Docker, Git, VS Code  
-
-> 이 재료들로 요리를 잘 준비해두고, 필요한 대로 조합하며 맛을 조절하세요!
+## 📖 목차
+1. [프로젝트 소개](#프로젝트-소개)  
+2. [팀원 소개](#팀원-소개)  
+3. [프로젝트 일정](#프로젝트-일정)  
+4. [기술 스택](#기술-스택)  
+5. [개발 환경](#개발-환경)  
+6. [프로젝트 구조](#프로젝트-구조)  
+7. [주요 기능 설명](#주요-기능-설명)  
+8. [역할 분담](#역할-분담)  
+9. [페이지별 기능](#페이지별-기능)  
+10. [개발 중 고려 사항](#개발-중-고려-사항)  
+11. [문서 저장 및 관리 방식](#문서-저장-및-관리-방식)  
+12. [프로젝트 후기](#프로젝트-후기)  
+13. [문의](#문의)  
 
 ---
 
-## 📝 만드는 방법 (사용법)
+## 📖 **프로젝트 소개**
+이 프로젝트는 학생들이 온라인으로 모의고사를 보고 학습 성과를 평가할 수 있도록 돕기 위해 개발된 웹 플랫폼입니다.  
+**주요 기능:**
+- 사용자 회원가입 및 로그인 (학생 및 관리자)
+- 다양한 과목별 문제 제공
+- 시험 결과 분석 및 피드백 제공
+- 관리자 페이지를 통한 문제 및 시험 관리
 
-### 1. 레포지토리 클론하기
-먼저 요리 시작을 위해 **재료**를 준비하세요. 터미널에서 다음을 입력합니다:
+---
+
+## 🧑‍💻 **팀원 소개**
+| 이름   | 역할          | GitHub                                   | 이메일                |
+|--------|---------------|------------------------------------------|-----------------------|
+| 홍길동 | 팀장 / Backend | [GitHub](https://github.com/honggildong) | honggildong@example.com |
+| 김철수 | Frontend      | [GitHub](https://github.com/kimchulsoo)  | kimchulsoo@example.com |
+| 이영희 | DB 설계       | [GitHub](https://github.com/leeyeonghee) | leeyeonghee@example.com |
+
+---
+
+## 📈 **프로젝트 일정**
+1. **요구사항 분석**: YYYY.MM.DD ~ YYYY.MM.DD  
+2. **개발**: YYYY.MM.DD ~ YYYY.MM.DD  
+3. **테스트 및 배포**: YYYY.MM.DD ~ YYYY.MM.DD  
+
+---
+
+## 🛠️ **기술 스택**
+### **Backend**
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white)
+![Spring](https://img.shields.io/badge/Spring-6DB33F?style=for-the-badge&logo=spring&logoColor=white)
+![STS](https://img.shields.io/badge/STS-6DB33F?style=for-the-badge&logo=spring&logoColor=white)
+
+### **Frontend**
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+
+### **Database**
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+
+### **Version Control**
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+
+### **Deployment**
+![Jenkins](https://img.shields.io/badge/Jenkins-D24939?style=for-the-badge&logo=jenkins&logoColor=white)
+
+---
+
+## 💻 **개발 환경**
+- **IDE**: Spring Tool Suite (STS)  
+- **운영체제**: Windows 10, macOS  
+- **서버**: Tomcat 9  
+- **DBMS**: MySQL 8.0  
+
+---
+
+## 📂 **프로젝트 구조**
 
 ```bash
-git clone https://github.com/username/momo.git
-cd momo
+📦 src/main 
+┣ 📂 java/com/example/projectname 
+┃ ┣ 📂 controller 
+┃ ┣ 📂 service 
+┃ ┣ 📂 repository 
+┃ ┗ 📂 model 
+┣ 📂 resources 
+┃ ┣ application.yml 
+┃ ┗ static 
+┗ 📂 webapp 
+┣ 📂 WEB-INF 
+┃ ┗ views 
+┗ index.html
 ```
 
-### 2. 설치 및 실행
-이제 재료를 손질하고 불을 올려볼까요?
-```bash
-# 설치
-npm install
-
-# 실행
-npm start
-```
-
-### 3. 맛을 보기 (테스트)
-
-재료가 잘 섞였는지 한 번 확인해보세요.
-혹시 맛이 이상하다면(에러 발생) 걱정하지 말고 저를 불러주세요! 함께 해결해 드릴게요.
+- **controller**: 요청 처리 및 API 매핑  
+- **service**: 비즈니스 로직  
+- **repository**: 데이터베이스와의 상호작용  
+- **model**: 도메인 클래스 및 DTO  
 
 ---
-## 🤔 자주 묻는 질문 (FAQ)
-## Q1: "오류가 나요! 어떡하죠?"
-"요리하다 보면 간을 잘못 맞출 때도 있죠. 당황하지 마세요!"
 
-오류 메시지를 복사해서 이슈 탭에 적어주세요.
-저희가 친절히 해결 도와드릴게요.
+## ✅ **주요 기능 설명**
+### **학생 기능**
+- **회원가입 및 로그인**: JWT 기반 인증 및 사용자 권한 관리  
+- **모의고사 보기**: 과목 선택 및 문제 풀이 기능  
+- **시험 결과 확인**: 점수와 정답/오답 피드백 제공  
 
-## Q2: "새로운 기능을 추가하고 싶어요!"
-"새로운 재료나 조리법은 언제나 환영입니다. 파스타는 창의적인 요리예요!"
-
-Pull Request를 보내주세요. 요리팀과 함께 더 멋진 요리를 만들어 봅시다.
-
----
-## 🌟 기여 방법
-momo 파스타는 팀워크로 더욱 맛있어집니다. 아래 방법으로 기여하실 수 있어요:
-
-1. 이 레포지토리를 포크합니다.
-2. 새로운 브랜치를 생성합니다
-```bash
-git checkout -b feature/my-delicious-feature
-```
-3. 기능 추가 후 커밋합니다.
-```bash
-git commit -m "Add my delicious feature"
-```
-4. 풀 리퀘스트를 보냅니다!
+### **관리자 기능**
+- **문제 관리**: 문제 추가/수정/삭제 가능  
+- **시험 관리**: 시험 일정 설정 및 관리  
+- **결과 분석**: 학생들의 시험 결과 데이터를 시각적으로 분석  
 
 ---
-### 🙏 감사의 인사
-끝까지 읽어주셔서 감사합니다!
-여러분과 함께 momo라는 완벽한 요리를 만들어가고 싶습니다.
-**스타 ⭐**를 눌러주시면 큰 힘이 됩니다! 🥰
 
+## 🛡️ **역할 분담**
+- **홍길동 (팀장)**: 
+  - Backend 개발 (Spring Framework 기반 API 설계 및 구현)  
+  - CI/CD 파이프라인 구성  
+- **김철수**: 
+  - Frontend 개발 (HTML, CSS, JavaScript 기반 화면 설계 및 구현)  
+  - 사용자 인터페이스 및 반응형 디자인 구현  
+- **이영희**: 
+  - DB 설계 및 데이터 모델링  
+  - MyBatis 연동 및 SQL 최적화  
+
+---
+
+## 📄 **페이지별 기능**
+| 페이지          | 주요 기능                                                              |
+|------------------|-----------------------------------------------------------------------|
+| **로그인**       | 사용자 로그인 및 인증, JWT 토큰 발급                                 |
+| **회원가입**     | 학생 및 관리자 회원가입 기능                                         |
+| **시험 목록**    | 과목별 시험 리스트 조회, 시험 시작 버튼                               |
+| **문제 풀이**    | 문제 풀기 UI, 정답 선택 및 제출 기능                                  |
+| **시험 결과**    | 시험 점수 및 정답/오답 분석 제공                                     |
+| **관리자 페이지** | 문제 추가/수정/삭제, 시험 일정 관리                                  |
+
+---
+
+## 🌟 **개발 중 고려 사항**
+1. **보안**:
+   - 사용자 비밀번호 암호화 (BCrypt 사용)
+   - 관리자와 학생의 권한 구분 및 접근 제어
+2. **성능 최적화**:
+   - MySQL에서 복잡한 쿼리를 사용해 데이터 조회 최적화
+   - RESTful API의 응답 속도 개선
+3. **에러 핸들링**:
+   - 글로벌 에러 핸들러로 일관된 에러 메시지 제공
+   - 클라이언트와 서버 간 명확한 상태 코드 반환  
+
+---
+
+## 📂 **문서 저장 및 관리 방식**
+- **문서 형식**: PDF, Google Docs, Markdown  
+- **저장 위치**: GitHub Repository 내 `/docs` 디렉토리  
+- **관리 규칙**:
+  - 프로젝트 설계 문서: `/docs/design/`  
+  - 데이터베이스 스키마: `/docs/db/`  
+  - API 명세서: `/docs/api/`  
+  - 기타 개발 문서: `/docs/misc/`
+
+---
+
+## 💬 **프로젝트 후기**
+- **홍길동**: *"처음으로 Jenkins를 사용해 CI/CD를 구성하며 배포 과정을 자동화해 보는 소중한 경험을 얻었습니다."*  
+- **김철수**: *"프론트엔드 개발 시 사용자 경험을 개선하는 방법에 대해 고민할 수 있었던 뜻깊은 프로젝트였습니다."*  
+- **이영희**: *"효율적인 데이터베이스 설계와 SQL 최적화의 중요성을 배우는 기회가 되었습니다."*
+
+---
+
+## 📧 **문의**
+- 프로젝트 관리자: [홍길동](mailto:honggildong@example.com)  
+- GitHub Repository: [Repository 링크](https://github.com/username/repository-name)
