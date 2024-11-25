@@ -1,4 +1,4 @@
-# **Online Mock Exam Platform**  
+# **Project MoMo**  
 온라인 모의고사 플랫폼  
 
 ---
