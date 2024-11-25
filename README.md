@@ -4,7 +4,7 @@
 ---
 
 ## 📖 목차
-1. [프로젝트 소개](#프로젝트)
+1. [프로젝트 소개](#프로젝트-소개)  
 2. [팀원 소개](#팀원-소개)  
 3. [프로젝트 일정](#프로젝트-일정)  
 4. [기술 스택](#기술-스택)  
@@ -20,7 +20,7 @@
 
 ---
 
-## 📖 프로젝트
+## 📖 프로젝트 소개
 이 프로젝트는 학생들이 온라인으로 모의고사를 보고 학습 성과를 평가할 수 있도록 돕기 위해 개발된 웹 플랫폼입니다.  
 **주요 기능:**
 - 사용자 회원가입 및 로그인 (학생 및 관리자)
@@ -30,7 +30,7 @@
 
 ---
 
-## 🧑‍💻 **팀원 소개**
+## 🧑‍💻 팀원 소개
 | 이름   | 역할          | GitHub                                   | 이메일                |
 |--------|---------------|------------------------------------------|-----------------------|
 | 홍길동 | 팀장 / Backend | [GitHub](https://github.com/honggildong) | honggildong@example.com |
@@ -39,36 +39,36 @@
 
 ---
 
-## 📈 **프로젝트 일정**
+## 📈 프로젝트 일정
 1. **요구사항 분석**: YYYY.MM.DD ~ YYYY.MM.DD  
 2. **개발**: YYYY.MM.DD ~ YYYY.MM.DD  
 3. **테스트 및 배포**: YYYY.MM.DD ~ YYYY.MM.DD  
 
 ---
 
-## 🛠️ **기술 스택**
-### **Backend**
+## 🛠️ 기술 스택
+### Backend
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white)
 ![Spring](https://img.shields.io/badge/Spring-6DB33F?style=for-the-badge&logo=spring&logoColor=white)
 ![STS](https://img.shields.io/badge/STS-6DB33F?style=for-the-badge&logo=spring&logoColor=white)
 
-### **Frontend**
+### Frontend
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 
-### **Database**
+### Database
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
 
-### **Version Control**
+### Version Control
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 
-### **Deployment**
+### Deployment
 ![Jenkins](https://img.shields.io/badge/Jenkins-D24939?style=for-the-badge&logo=jenkins&logoColor=white)
 
 ---
 
-## 💻 **개발 환경**
+## 💻 개발 환경
 - **IDE**: Spring Tool Suite (STS)  
 - **운영체제**: Windows 10, macOS  
 - **서버**: Tomcat 9  
@@ -76,7 +76,8 @@
 
 ---
 
-## 📂 **프로젝트 구조**
+## 📂 프로젝트 구조
+
 
 ```bash
 📦 src/main 
