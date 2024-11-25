@@ -75,6 +75,8 @@
 - **서버**: Tomcat 9  
 - **DBMS**: MySQL 8.0  
 
+![image](https://github.com/user-attachments/assets/c1ac2280-d961-44f4-a892-e5494e9093b6)
+
 ---
 
 ## 📂6. 프로젝트 구조
