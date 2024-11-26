@@ -32,7 +32,7 @@
 |--------|------------------------------------------|-----------------------|
 | 김승수 | [김승수의 GitHub](https://github.com/thooX2)      | thox2q9@gmail.com     |
 | 김도영 | [김도영의 GitHub](https://github.com/Doyoung9568)  | doyoung9568@gmail.com |
-| 문성민 | [문성민의 GitHub](https://github.com/leeyeonghee) | @example.com |
+| 문성민 | [문성민의 GitHub](https://github.com/devil7861) | regnator2036@gmail.com |
 | 최승현 | [최승현의 GitHub](https://github.com/elster009) | tmdgus199901@gmail.com |
 
 ---
