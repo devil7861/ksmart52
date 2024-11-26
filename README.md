@@ -31,9 +31,9 @@
 | 이름   | GitHub                                   | 이메일                |
 |--------|------------------------------------------|-----------------------|
 | 김승수 | [김승수의 GitHub](https://github.com/thooX2)      | thox2q9@gmail.com     |
-| 김도영 | [김도영의 GitHub](https://github.com/kimchulsoo)  | kimchulsoo@example.com |
-| 문성민 | [문성민의 GitHub](https://github.com/leeyeonghee) | leeyeonghee@example.com |
-| 최승현 | [최승현의 GitHub](https://github.com/leeyeonghee) | leeyeonghee@example.com |
+| 김도영 | [김도영의 GitHub](https://github.com/Doyoung9568)  | doyoung9568@gmail.com |
+| 문성민 | [문성민의 GitHub](https://github.com/leeyeonghee) | @example.com |
+| 최승현 | [최승현의 GitHub](https://github.com/elster009) | tmdgus199901@gmail.com |
 
 ---
 
@@ -47,25 +47,29 @@
 
 ## ✨4. 기술 스택
 
-#### 서버 환경
+#### FE
+<img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=HTML5&logoColor=white"> <img src="https://img.shields.io/badge/css3-1572B6?style=for-the-badge&logo=css3&logoColor=white"> <img src="https://img.shields.io/badge/Java Script-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"> <img src="https://img.shields.io/badge/jquery-0769AD?style=for-the-badge&logo=jquery&logoColor=white"> <img src="https://img.shields.io/badge/thyme leaf-005F0F?style=for-the-badge&logo=thymeleaf&logoColor=white">
+
+#### BE
 <img src="https://img.shields.io/badge/java-007396?style=for-the-badge&logo=java&logoColor=white"> 
 
-#### 클라이언트 환경
-<img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=HTML5&logoColor=white"> <img src="https://img.shields.io/badge/css3-1572B6?style=for-the-badge&logo=css3&logoColor=white"> <img src="https://img.shields.io/badge/JS-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"> <img src="https://img.shields.io/badge/jquery-0769AD?style=for-the-badge&logo=jquery&logoColor=white"> <img src="https://img.shields.io/badge/thymeleaf-005F0F?style=for-the-badge&logo=thymeleaf&logoColor=white">
+#### WS
+<img src="https://img.shields.io/badge/nginx-009639?style=for-the-badge&logo=nginx&logoColor=black">
 
 #### WAS
 <img src="https://img.shields.io/badge/Apache Tomcat-F8DC75?style=for-the-badge&logo=apachetomcat&logoColor=black">
 
 #### FrameWork
-<img src="https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=Bootstrap&logoColor=white"> <img src="https://img.shields.io/badge/springboot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white"> <img src="https://img.shields.io/badge/MyBatis-0D0D0D?style=for-the-badge&logo=MyBatis&logoColor=white">
+<img src="https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=Bootstrap&logoColor=white"> <img src="https://img.shields.io/badge/spring boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white"> <img src="https://img.shields.io/badge/MyBatis-0D0D0D?style=for-the-badge&logo=MyBatis&logoColor=white">
 
 #### DBMS
 <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=MySQL&logoColor=white">
 
-### 형상 관리
+#### Version Control
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+<img src="https://img.shields.io/badge/git hub-181717?style=for-the-badge&logo=github&logoColor=white">
 
-### CI/CD
+#### CI/CD
 ![Jenkins](https://img.shields.io/badge/Jenkins-D24939?style=for-the-badge&logo=jenkins&logoColor=white)
 
 ---
@@ -111,14 +115,15 @@
 ## ✅7. **주요 기능 설명**
 ### **학생 기능**
 - **모의고사 보기**: 과목 선택 및 문제 풀이 기능  
-- **시험 결과 확인**: 점수와 정답/오답 피드백 제공  
+- **시험 결과 확인**: 점수와 정답/오답 피드백 제공
+- **시험 결과 분석**: 기간별 성적변화 기능 제공  
 - **성적 조회** : 성적 시각화 종합 조회
-
+- **학습 관리** : 학습목표 및 학습일정 관리 기능 제공
 ### **관리자 기능**
 - **문제 관리**: 문제 추가/수정/삭제 가능  
 - **시험 관리**: 시험 일정 설정 및 관리  
 - **결과 분석**: 학생들의 시험 결과 데이터를 시각적으로 분석  
-
+- **학습 관리**: 학습목표 및 학습일정 조회/삭제 가능
 ---
 
 ## 🎨8. 역할 분담
@@ -138,13 +143,41 @@
   - 성적조회 클래스 경로 작성
   - 성적조회 전체적인 ERD 작성
   - 성적조회 화면 및 기능 구현 
-- **김철수**: 
-  - Frontend 개발 (HTML, CSS, JavaScript 기반 화면 설계 및 구현)  
-  - 사용자 인터페이스 및 반응형 디자인 구현  
-- **이영희**: 
+- **김도영**: 
+  - 문서작업  
+    - 모의고사 파트 연결 클래스와 전송방식 작성
+    - 모의고사 파트 DB 기초 table 작성
+    - 모의고사 파트 사용할 논리적, 물리적 DB 구현
+    - 모의고사 파트 사용할 Table 상세 데이터 입력
+    - 모의고사 파트 프로세스 흐름도를 도표로 표현
+    - 서비스별 프로세스 흐름도를 도표로 표현
+    - 모의고사 파트 서비스별 기능 작성
+    - 모의고사 파트 각 테이블의 컬럼 정보 정리 및 작성
+    - 모의고사 파트 공통된 네이밍 규칙 정리
+    - 모의고사 파트 화면 설계서 작성
+    - 모의고사 파트 화면 경로 작성
+    - 모의고사 파트 클래스 경로 작성
+    - dbeaver를 사용하여 모의고사 부분 전체적인 ERD 작성
+  - 화면 구현
+     - 기간별 성적 분석  
+- **문성민**: 
   - DB 설계 및 데이터 모델링  
   - MyBatis 연동 및 SQL 최적화  
-
+- **최승현**: 
+  - 학습계획 파트 논리적, 물리적 DB 구현
+  - 학습계획 파트 Table 상세 데이터 입력
+  - 학습계획 파트 프로세스 흐름도를 도표로 표현
+  - 학습계획 파트 서비스별 프로세스 흐름도를 도표로 표현
+  - 학습계획 파트 프로젝트 서비스별 기능 작성
+  - 학습계획 파트 각 테이블의 컬럼 정보 정리 및 작성
+  - 학습계획 파트 공통된 네이밍 규칙 정리
+  - 학습계획 파트 화면 설계서 작성
+  - 학습계획 파트 화면 경로 작성
+  - 학습계획 파트 클래스 경로 작성
+  - 학습계획 파트 dbeaver를 사용하여 학습계획 파트 전체적인 ERD 작성
+  - 학습계획 파트 기능 및 화면 구현
+  - 학습계획 파트 기능 및 화면 구현
+  - 학습계획 파트 오탈자 확인 및 수정
 ---
 
 ## 📄9. **페이지별 기능**
@@ -152,15 +185,17 @@
 |------------------|-----------------------------------------------------------------------|
 | **시험 목록**    | 과목별 시험 리스트 조회, 시험 시작 버튼                               |
 | **문제 풀이**    | 문제 풀기 UI, 정답 선택 및 제출 기능                                  |
-| **시험 결과**    | 시험 점수 및 정답/오답 분석 제공                                     |
+| **시험 결과**    | 시험 점수 및 정답/오답, 기간별 성적 변화 분석 제공                     |
 | **성적 조회**    | 모의고사 점수 종합 조회 및 시각화                                    |
+| **학습 관리**    | 학습목표 및 학습일정 관리 기능 제공
 | **관리자 페이지** | 문제 추가/수정/삭제, 시험 일정 관리                                  |
-
+| **관리자 페이지** | 학습목표 및 학습일정 조회/삭제 기능 제공
 ---
 
 ## 💬10. **프로젝트 후기**
 - **김승수**: *"요구사항을 분석하고 설계하는 과정의 중요함을 느꼈고 프로젝트 전반을 관리하는 값진 경험을 할 수 있었습니다."*  
-- **김철수**: *"프론트엔드 개발 시 사용자 경험을 개선하는 방법에 대해 고민할 수 있었던 뜻깊은 프로젝트였습니다."*  
-- **이영희**: *"효율적인 데이터베이스 설계와 SQL 최적화의 중요성을 배우는 기회가 되었습니다."*
+- **김도영**: *"명확한 개발문서 작성 및 효율적인 데이터베이스 설계와 SQL 최적화의 중요성을 배우는 기회가 되었습니다."*  
+- **문성민**: *""*
+- **최승현**: *"팀원과의 협동 및 소통의 중요성과 초기 설계 과정의 중요성과 프로젝트에 대한 책임감을 배울 수 있는 기회가 되었습니다."*
 
 ---
